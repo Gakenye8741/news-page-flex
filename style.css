@@ -7,7 +7,7 @@
 body{
 font-family: 'Inter', sans-serif;
 font-size: 15px;
-background-color: hsl(36, 15%, 58%);
+background-color: lightgray;
 margin: 0;
 padding: 2rem;
 color: hsl(240, 100%, 5%);
@@ -40,7 +40,8 @@ header ul li  a{
     max-width: 1200px;
     margin: 0 auto;
     padding: 50px 150px;
-    background-color: hsl(36, 100%, 99%)
+    background-color: hsl(36, 100%, 99%);
+    box-shadow: 0 0  10px black;
   }
  
   .Text {
