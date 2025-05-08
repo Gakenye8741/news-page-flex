@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+font-family: 'Inter', sans-serif;
+font-size: 15px;
+background-color: hsl(36, 15%, 58%);
+margin: 0;
+padding: 2rem;
+color: hsl(240, 100%, 5%);
+padding: 0 100px;
+}
+
+header{
+    width:  100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px ;
+    height: 70px;
+}
+.logo{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+header ul li{
+    float: left;
+    list-style: none;;
+    position: relative;
+}
+header ul li  a{
+    color: black;
+    text-decoration: none;
+    margin: 20px 20px;
+}
+ .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 150px;
+    background-color: hsl(36, 100%, 99%)
+  }
+ 
+  .Text {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    font-size: 20px;
+  }
+  .left-side{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+  }
+  .main-image {
+    width: 100%;
+    height: auto;
+  }
+  .text-row {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+  }
+  .main-heading {
+    flex: 1;
+    font-size: 2.8rem;
+    font-weight: 800;
+  }
+  .box {
+    flex: 1;
+  }
+  .description {
+    color: hsl(235, 50%, 79%);
+    margin-bottom: 1.5rem;
+  }
+  .read-more {
+    background-color: hsl(5, 22%, 56%);
+    color: white;
+    padding: 0.75rem 2rem;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  .right-side {
+    flex: 1;
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+    padding: 1.5rem;
+  }
+  .new-heading {
+    color: hsl(35, 77%, 62%);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .hydrogen, .downside,  .funding {
+    margin-bottom: 1.5rem;
+  }
+  .hydrogen, .downside,  .funding h3 {
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+  }
+  .hydrogen a, .downside a, .funding a {
+    color: white;
+    text-decoration: none;
+  }
+  .hydrogen a:hover, downside a:hover,  funding a:hover {
+    color: hsl(35, 77%, 62%);
+  }
+  .hydrogen p, .downside p,  .funding p {
+    font-size: 0.9rem;
+    color: hsl(233, 8%, 79%);
+  }
+  hr {
+    border: 0.5px solid hsl(233, 8%, 79%);
+    margin: 1rem 0;
+  }
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  .Blogs {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+  }
+  .Blogs img {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+  }
+  .Blogs .text {
+    display: flex;
+    flex-direction: column;
+  }
+  .Blog-number {
+    color: hsl(234, 8%, 9%);
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+  .bottom-article h4 {
+    font-weight: 800;
+    margin: 0.2rem 0;
+  }
+  .bottom-article p {
+    color: hsl(235, 18%, 28%);
+    font-size: 0.9rem;
+  }
