@@ -39,7 +39,7 @@ header ul li  a{
  .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 50px 150px;
+    padding: 50px 100px;
     background-color: hsl(36, 100%, 99%);
     box-shadow: 0 0  10px black;
   }
